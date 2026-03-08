@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://fundacion-sonrisas.org'),
+  metadataBase: new URL('https://fundacion-f03hl466e-abel322-e634bac5.vercel.app'),
   title: {
     default: 'Fundación Sonrisas - Transformando Vidas de Niños',
     template: '%s | Fundación Sonrisas'
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'es_ES',
-    url: 'https://fundacion-sonrisas.org',
+    url: 'https://fundacion-f03hl466e-abel322-e634bac5.vercel.app',
     title: 'Fundación Sonrisas - Transformando Vidas de Niños',
     description: 'Fundación dedicada al bienestar y desarrollo integral de niños en situación de vulnerabilidad. Únete a nuestra misión de construir un futuro mejor.',
     siteName: 'Fundación Sonrisas',

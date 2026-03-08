@@ -4,8 +4,8 @@ export function StructuredData() {
     '@type': 'NGO',
     name: 'Fundación Sonrisas',
     description: 'Fundación dedicada al bienestar y desarrollo integral de niños en situación de vulnerabilidad',
-    url: 'https://fundacion-sonrisas.org',
-    logo: 'https://fundacion-sonrisas.org/placeholder-logo.png',
+    url: 'https://fundacion-f03hl466e-abel322-e634bac5.vercel.app',
+    logo: 'https://fundacion-f03hl466e-abel322-e634bac5.vercel.app/placeholder-logo.png',
     sameAs: [
       'https://facebook.com/fundacionsonrisas',
       'https://twitter.com/fundacionsonrisas',
