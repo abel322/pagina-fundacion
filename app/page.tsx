@@ -8,11 +8,11 @@ import { Donate } from "@/components/donate"
 import { Footer } from "@/components/footer"
 import { getHomePageData } from "@/lib/data"
 
-// Force dynamic rendering - SSR on every request
-export const dynamic = "force-dynamic"
+// Static Site Generation for better SEO
+export const revalidate = 3600 // Revalidate every hour
 
 export default async function HomePage() {
-  // Fetch all data server-side
+  // Fetch all data server-side at build time
   const { stats, programs, donationOptions, causes } = await getHomePageData()
 
   return (
