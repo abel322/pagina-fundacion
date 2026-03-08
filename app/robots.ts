@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/admin/'],
       },
     ],
-    sitemap: 'https://fundacion-f03hl466e-abel322-e634bac5.vercel.app/sitemap.xml',
+    sitemap: 'https://fundacion-mauve.vercel.app/sitemap.xml',
   }
 }
